@@ -8,5 +8,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	site: 'https://jewfu123.github.io',
 	base: '/astro', // 例如 '/my-astro-site'
+	outDir: './docs',
 	integrations: [mdx(), sitemap()],
 });
